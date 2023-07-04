@@ -1,0 +1,31 @@
+
+<div class="container-card text-center p-2 m-4">
+	<img src="{{img}}" alt="{{name-card}}" width="200px" >
+    <div class="container-title">
+		<h3>{{name-card}}</h3>
+		<p>{{message}}</p>  
+    </div>
+	<div class="container-price">
+		<p><b>{{price}}</b></p>
+		<button class="m-auto d-flex align-items-center button btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='bx bx-calendar-check mr-2'></i>RESERVAR</button>
+
+		<!-- modal  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="transition: 1s;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">RESERVAR</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class='bx bx-log-out'></i></button>
+          </div>
+          <div class="modal-body">
+            <P>¿Deseas reservar este vehículo?</P>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+</div>

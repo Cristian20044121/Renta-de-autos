@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#contenido-mantenimiento{
+	  
+	background-image:	linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+	,url(imagen/mantenimiento.jpg);
+	position: absolute;
+	width: 593px;
+	height: 315px;
+	top: 224px;
+	left: 285px;	
+	background-color:#C9C;
+}
+
+.montallantas{
+	color: white;
+}
+
+.mantenimiento{color: white;}
+
+
+#imagen-contenido2{
+	border-radius: 0;
+	margin: 0;
+	
+}
+
+#contenido-montallantas{
+	background-image:	linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+	,url(imagen/montallantas.jpg);
+	position: absolute;
+	width: 593px;
+	height: 315px;
+	top: 224px;
+	left: 285px;	
+	background-color:#C9C;
+}
+
+#contenido-alineacion{
+	background-image:	linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+	,url(imagen/alineacion.jpg);
+	position: absolute;
+	width: 593px;
+	height: 315px;
+	top: 224px;
+	left: 285px;	
+	background-color:#C9C;
+}
+
+.alineacion{color: white;}
+
+#contenido-balanceo{
+		background-image:	linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+	,url(imagen/balanceo.jpg);
+	position: absolute;
+	width: 593px;
+	height: 315px;
+	top: 224px;
+	left: 285px;	
+	background-color:#C9C;
+}
+
+#cuadro {
+	margin: 0px;
+	height: 190px;
+	width: 590px;
+	border: 1px solid #03C;
+}
+
+#galeria1 {
+	height: 190px;
+	width: 590px;
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid #0C9;}
+	
+#galeria2{
+	height: 190px;
+	width: 590px;
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid #0C9;
+}

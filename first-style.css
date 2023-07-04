@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Kumbh+Sans:wght@400;700 & display=swap');
+:root{
+    --button-buy : #0c1727;
+    --title-cards: #0c1729;
+}
+
+.chatbot {
+    position: fixed;
+    z-index: 1;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 0px;
+    top: 400px;
+    border: 1px solid #0c1727;
+}
+
+.cars{
+    width: 95%;
+}
+.container-card{
+    width: 40%;
+    height: 330px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px 5px rgb(12, 23, 41);
+}
+.button{
+    background: var(--button-buy);
+    border-radius: 5px;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+.button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:white;
+    z-index: -1;
+    transition: .5s;
+}
+
+.button:hover::before{
+    width: 100%;
+}
+.button:hover{
+    color: #0c1729;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.container-title > h3{
+    color: var(--title-cards);
+    font-weight: 600;
+}
+
+/* accordeon questions  */
+.container-questions{
+    width: 80%;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.accordion-content {
+    display: none;
+} 
+.accordion-title{
+    cursor: pointer;
+    padding: 5px;
+    width: 70%;
+    border-bottom: 2px solid gainsboro;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.title-active{
+    color: #076e8d;
+    transition: 0.5s;
+}
+.accordion-title--open + .accordion-content{
+    display: block;
+    width: 60%;
+    font-size: 14px;
+    font-weight: 800;
+}
+.accordion-content > p{
+    width: 90%;
+}
+.accordion-title> i{
+    /* width: 2%;
+    height: 2%; */
+    float: right;
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.links-contact a{
+    font-size: 3rem;
+    margin-left: 12px;
+    color: #0c1727;
+}
+.links-contact a:hover{
+    color: #0c1727be;
+    transition: 1s;
+}
+
+/* modal  */
+.btn-close:hover{
+    color: #ffff;
+    transition: 0.5s;
+    background-color: #ff0000;
+}
+
+/* balanceo  */
+
+.container-balanceo{
+    width: 60%;
+}
