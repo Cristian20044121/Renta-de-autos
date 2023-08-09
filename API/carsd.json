@@ -1,72 +1,72 @@
 [
     {
-        "img": "../images/cars/fiat-mobi-10.png",
+        "img": "images/cars/fiat-mobi-10.png",
         "name-card": "Fiat Mobi 1.0",
         "message": "Économico",
         "price": "$40.550/dia"
     },
     {
-        "img": "../images/cars/nissan-march.png",
+        "img": "images/cars/nissan-march.png",
         "name-card": "Nissan March",
         "message": "Économico",
         "price": "$1.283.906"
     },
     {
-        "img": "../images/cars/kia-sportage.png",
+        "img": "images/cars/kia-sportage.png",
         "name-card": "Kia Sportage",
         "message": "SUV Grande",
         "price": "$1.034.365"
     },
     {
-        "img": "../images/cars/renault-koleos.png",
+        "img": "images/cars/renault-koleos.png",
         "name-card": "Renault Koleos",
         "message": "SUV Grande",
         "price": "$1.707.701"
     },
     {
-        "img": "../images/cars/chevrolet-trax.png",
+        "img": "images/cars/chevrolet-trax.png",
         "name-card": "Chevrolet Trax",
         "message": "SUV Compacto",
         "price": "$1.566.708"
     },
     {
-        "img": "../images/cars/renault-duster.png",
+        "img": "images/cars/renault-duster.png",
         "name-card": "Renault Duster",
         "message": "Camioneta",
         "price": "$8.361.683"
     },
     {
-        "img": "../images/cars/kia-soul.png",
+        "img": "images/cars/kia-soul.png",
         "name-card": "Kia Soul",
         "message": "Compacto",
         "price": "$12.387.237"
     },
     {
-        "img": "../images/cars/chevrolet-malibu.jpg",
+        "img": "images/cars/chevrolet-malibu.jpg",
         "name-card": "Chevrolet Malibu",
         "message": "Grande",
         "price": "$1.245.243"
     },
     {
-        "img": "../images/cars/kia-picanto.jpg",
+        "img": "images/cars/kia-picanto.jpg",
         "name-card": "Kia Picanto",
         "message": "Mediano",
         "price": "$1.168.256"
     },
     {
-        "img": "../images/cars/logan_lrg.jpg",
+        "img": "images/cars/logan_lrg.jpg",
         "name-card": "Renault Logan",
         "message": "Mediano",
         "price": "$1.252.648"
     },
     {
-        "img": "../images/cars/twingo_lrg.jpg",
+        "img": "images/cars/twingo_lrg.jpg",
         "name-card": "Renault Twingo",
         "message": "Pequeño",
         "price": "$1.252.648"
     },
     {
-        "img": "../images/cars//aveo_sedan_lrg.jpg",
+        "img": "images/cars//aveo_sedan_lrg.jpg",
         "name-card": "Chevrolet Aveo",
         "message": "Pequeño",
         "price": "$1.304.846"

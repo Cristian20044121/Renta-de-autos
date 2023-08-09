@@ -1,7 +1,7 @@
 
 async function getCards() {
     try {
-      const response = await fetch('../../API/carsd.json');
+      const response = await fetch('API/carsd.json');
       const cards = await response.json();
       getTemplateCards(cards);
     } catch (error) {
